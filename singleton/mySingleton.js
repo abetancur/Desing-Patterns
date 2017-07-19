@@ -1,3 +1,6 @@
+/*
+* Restricts instantiation of class to a single objects
+*/
 var mySingleton = (function () {
     var instance;
     function init() {
